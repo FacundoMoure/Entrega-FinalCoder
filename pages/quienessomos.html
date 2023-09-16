@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Rincón 3D | Nosotros</title>
     <link rel="stylesheet" href="../estilos.css">
+    <!-- inicia aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- fin aos -->
 </head>
 <body>
     <!-- inicio navbar -->
@@ -59,8 +62,8 @@
     <h2>Rincón 3D</h2>
     <div class="container-fluid">
         <div class="row">
-            <div class="nleft col-sm-6" id="impresora3d"></div>
-            <div class="nright col-sm-6" id="rinconHistoria">
+            <div data-aos="fade-right" class="nleft col-sm-6" id="impresora3d"></div>
+            <div data-aos="fade-up" class="nright col-sm-6" id="rinconHistoria">
                 <p>
                     Somos un equipo de diseñadores gráficos, dedicados al  diseño e impresión de piezas en 3D. <br><br>
                 Estamos desde el año 2021, en la ciudad de Bahía Blanca, diseñando y creando piezas y modelos en 3D basados en las necesidades y gustos de nuestros clientes.
@@ -94,5 +97,11 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
     <!-- fin bs -->
+    <!-- inicia aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- fin aos -->
 </body>
 </html>

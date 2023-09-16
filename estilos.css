@@ -49,8 +49,8 @@ main {
 }
 
 .nosotrosPadre {
-  padding: 30px;
-  margin: 40px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .padreCall a:hover {
@@ -114,10 +114,11 @@ main {
 #rinconHistoria p {
   font-family: "Lora", serif;
   font-size: 16px;
-  padding-top: 20px;
-  background-color: bisque;
-  margin-top: 30px;
+  padding-top: 10px;
+  background-color: whitesmoke;
+  margin-top: 10px;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .nright {
@@ -439,6 +440,7 @@ footer i {
 .navbar {
   height: 85px;
   box-shadow: 0 0 7px yellow !important;
+  z-index: 99;
 }
 
 .navbar-brand img {

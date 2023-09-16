@@ -63,8 +63,8 @@ main{
 }
 
 .nosotrosPadre{
-    padding: 30px;
-    margin: 40px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .padreCall a:hover{
@@ -130,10 +130,11 @@ main{
 #rinconHistoria p{
     font-family: $font3;
     font-size: 16px;
-    padding-top: 20px;
-    background-color: bisque; 
-    margin-top: 30px;
+    padding-top: 10px;
+    background-color: $color1; 
+    margin-top: 10px;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .nright{
