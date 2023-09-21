@@ -1,24 +1,25 @@
-.navbar{
+.navbar {
     height: 85px;
     box-shadow: 0 0 7px $color5 !important;
     z-index: 99;
-}
 
-.navbar-brand img{
-    height: 60px;
-}
+    a {
+        transition: color 0.3s ease;
+        text-decoration: none;
+        color: $color3;
+        padding: 6px;
 
-.nav-link{
-    color: $color3 !important;
-}
+        &:hover {
+            color: $color5;
+        }
+    }
 
-.navbar a{
-    transition: color 0.3s ease;
-    text-decoration: none;
-    color: $color3;
-    padding: 6px;
-}
+    .navbar-brand img {
+        height: 60px;
+    }
 
-.navbar a:hover{
-    color: $color5;
+    .nav-link {
+        color: $color3 !important;
+    }
+
 }

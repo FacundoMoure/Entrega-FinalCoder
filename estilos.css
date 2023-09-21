@@ -29,14 +29,14 @@ main {
 }
 
 .padreCall {
-  padding: 50px;
+  padding: 20px;
 }
 
 .call {
   color: whitesmoke;
   background-color: rgba(0, 0, 0, 0.7);
   width: 60%;
-  border: 3px solid black;
+  border: 1px solid black;
   padding: 10px;
   margin: 0 auto;
 }
@@ -61,10 +61,9 @@ main {
   color: antiquewhite;
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
-  border: 2px solid black;
+  border: 1px solid black;
   margin: 0 auto;
 }
-
 .nosotrosMain p {
   color: white;
   font-size: 20px;
@@ -165,7 +164,7 @@ h1 {
   padding: 50px;
   text-align: center;
   margin-bottom: 10px;
-  text-shadow: 0 0 5px whitesmoke;
+  text-shadow: 0 0 5px black;
   font-family: "Lora", serif;
 }
 
@@ -179,14 +178,12 @@ h1 {
   margin: 20px;
   margin-bottom: 70px;
 }
-
 .impresiones h2 {
   color: white;
   text-align: center;
   text-shadow: 0 0 5px black;
   padding-bottom: 10px;
 }
-
 .impresiones p {
   margin-top: 10px;
   font-family: "Open Sans", sans-serif;
@@ -232,7 +229,7 @@ section {
 }
 
 .card:hover {
-  transform: scale(1.03);
+  transform: scale(1.06);
   box-shadow: 3px 2px 6px rgba(236, 218, 20, 0.5);
 }
 
@@ -330,7 +327,6 @@ section {
 .nright {
   background-color: whitesmoke;
 }
-
 .nright p {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
@@ -365,16 +361,67 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: auto;
+}
+
+input {
+  border-radius: 3px;
+  text-align: center;
+  padding: 2px;
+  border: 1px solid black;
+  box-shadow: outset 0 0 2px black;
+  font-family: "Lato", sans-serif;
+}
+
+input[type=text] {
+  height: 30px;
+  background-color: whitesmoke;
+}
+
+input::-moz-placeholder {
+  color: black;
+  text-shadow: 0 0 1px yellow;
+}
+
+input::placeholder {
+  color: black;
+  text-shadow: 0 0 1px yellow;
+}
+
+textarea {
+  border-radius: 3px;
+  text-align: center;
+  padding: 2px;
+  border: 1px solid black;
+  box-shadow: outset 0 0 2px black;
+  font-family: "Lato", sans-serif;
+}
+
+textarea::-moz-placeholder {
+  color: black;
+  text-shadow: 0 0 1px yellow;
+}
+
+textarea::placeholder {
+  color: black;
+  text-shadow: 0 0 1px yellow;
+}
+
+textarea[type=text] {
+  height: 30px;
+  background-color: whitesmoke;
 }
 
 .formulario {
+  border: 1px solid black;
   margin: 30px;
+  padding: 15px;
 }
 
 .mapa {
   width: 400px;
   height: 400px;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* Fin página de contacto */
@@ -453,24 +500,20 @@ footer i {
   box-shadow: 0 0 7px yellow !important;
   z-index: 99;
 }
-
-.navbar-brand img {
-  height: 60px;
-}
-
-.nav-link {
-  color: white !important;
-}
-
 .navbar a {
   transition: color 0.3s ease;
   text-decoration: none;
   color: white;
   padding: 6px;
 }
-
 .navbar a:hover {
   color: yellow;
+}
+.navbar .navbar-brand img {
+  height: 60px;
+}
+.navbar .nav-link {
+  color: white !important;
 }
 
 /* Inicio mediaqueries */

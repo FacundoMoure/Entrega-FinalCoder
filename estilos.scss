@@ -41,14 +41,14 @@ main{
 }
 
 .padreCall{
-    padding:50px;
+    padding:20px;
 }
 
 .call{
     color: $color1;
     background-color: rgba(0, 0, 0, 0.7);
     width: 60%;
-    border: 3px solid $color4;
+    border: 1px solid $color4;
     padding: 10px;
     margin: 0 auto;
 
@@ -75,16 +75,16 @@ main{
     color: $color2;
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
-    border: 2px solid $color4;
+    border: 1px solid $color4;
     margin: 0 auto;
-}
-
-.nosotrosMain p{
-    color: $color3;
-    font-size: 20px;
-    text-align: center;
-    padding: 12px;
-    margin: 0 auto;
+ 
+    p{
+        color: $color3;
+        font-size: 20px;
+        text-align: center;
+        padding: 12px;
+        margin: 0 auto;
+    }
 }
 
 .containerImpresora img{
@@ -179,15 +179,13 @@ h2{
     }
 }
 
-
-
 h1{
     color: $color3;
     font-size: 40px;
     padding: 50px;
     text-align: center;
     margin-bottom: 10px;
-    text-shadow: 0 0 5px $color1;
+    text-shadow: 0 0 5px $color4;
     font-family: $font3;
 }
 
@@ -200,18 +198,18 @@ h1{
     padding: 30px;
     margin: 20px;
     margin-bottom: 70px;
-}
 
-.impresiones h2{
-    color: $color3;
-    text-align: center;
-    text-shadow: 0 0 5px $color4;
-    padding-bottom: 10px;
-}
+    h2{
+        color: $color3;
+        text-align: center;
+        text-shadow: 0 0 5px $color4;
+        padding-bottom: 10px;
+    }
 
-.impresiones p{
-    margin-top: 10px;
-    font-family: $font1;
+    p{
+        margin-top: 10px;
+        font-family: $font1;
+    }
 }
 
 .nosotrosimagen{
@@ -254,7 +252,7 @@ section{
 }
 
 .card:hover{
-    transform: scale(1.03);
+    transform: scale(1.06);
     box-shadow: 3px 2px 6px rgba(236, 218, 20, 0.5);
 }
 
@@ -344,10 +342,6 @@ section{
     text-shadow: 0 0 4px whitesmoke;
 }
 
-// .impresionesHistoria{
-//     margin: 10px;
-// }
-
 .nleft{
     height: 500px;
     background-image: url(img/impresora2.jpg);
@@ -357,12 +351,12 @@ section{
 
 .nright{
     background-color: $color1;
-}
 
-.nright p{
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
-    padding-top: 20px;
+    p{
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        padding-top: 20px;
+    }
 }
 
 h2{
@@ -395,16 +389,57 @@ iframe{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
+}
+
+input{
+    border-radius: 3px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid $color4;
+    box-shadow: outset 0 0 2px $color4;
+    font-family: $font4;
+}
+
+input[type="text"]{
+    height: 30px;
+    background-color: $color1;
+}
+
+input::placeholder{
+    color: $color4;
+    text-shadow: 0 0 1px $color5;
+}
+
+textarea{
+    border-radius: 3px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid $color4;
+    box-shadow: outset 0 0 2px $color4;
+    font-family: $font4;
+}
+
+textarea::placeholder{
+    color: $color4;
+    text-shadow: 0 0 1px $color5;
+}
+
+textarea[type="text"]{
+    height: 30px;
+    background-color: $color1;
 }
 
 .formulario{
+    border: 1px solid $color4;
     margin: 30px;
+    padding: 15px;
 }
 
-.mapa {
+.mapa{
     width: 400px;
     height: 400px;
-    padding: 20px
+    padding: 10px
 }
 
 /* Fin página de contacto */
