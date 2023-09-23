@@ -51,7 +51,7 @@ main{
 .call{
     color: $color1;
     background-color: rgba(0, 0, 0, 0.7);
-    width: 60%;
+    width: 50%;
     border: 1px solid $color4;
     padding: 10px;
     margin: 0 auto;
@@ -63,6 +63,7 @@ main{
 
     p{
         color: $color5;
+        padding-bottom: 15px;
     }
 }
 
@@ -74,7 +75,7 @@ main{
 .nosotrosMain{
     color: $color2;
     background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
+    width: 80%;
     border: 1px solid $color4;
     margin: 0 auto;
  
@@ -405,7 +406,7 @@ input{
 
 input::placeholder{
     color: $color4;
-    text-shadow: 0 0 1px $color5;
+    text-shadow: 0 0 3px $color5;
 }
 
 textarea{
@@ -419,7 +420,7 @@ textarea{
 
 textarea::placeholder{
     color: $color4;
-    text-shadow: 0 0 1px $color5;
+    text-shadow: 0 0 3px $color5;
 }
 
 textarea[type="text"]{
@@ -478,9 +479,20 @@ textarea[type="text"]{
         padding-bottom: 30px;
     }
 
-    iframe{
-        padding: 20px;
+    .video iframe{
         width: 100%;
         height: 70%;
+    }
+
+    .mapa iframe{
+        padding: 20px;
+        width: 90%;
+        height: 90%;
+    }
+
+    .containerImpresora img{
+        width: 90%;
+        height: auto;
+        align-items: center;
     }
 }
