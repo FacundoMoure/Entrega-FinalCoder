@@ -31,6 +31,9 @@ main {
 .padreCall {
   padding: 20px;
 }
+.padreCall a:hover {
+  color: yellow;
+}
 
 .call {
   color: whitesmoke;
@@ -51,10 +54,6 @@ main {
 .nosotrosPadre {
   padding: 10px;
   margin: 10px;
-}
-
-.padreCall a:hover {
-  color: yellow;
 }
 
 .nosotrosMain {
@@ -227,6 +226,20 @@ section {
   margin-bottom: 60px;
   transition: all 0.4s;
 }
+.card a {
+  color: white;
+  text-align: center;
+  background-color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: all 0.1s;
+}
+.card a:hover {
+  color: yellow;
+}
 
 .card:hover {
   transform: scale(1.06);
@@ -285,22 +298,6 @@ section {
 .card-desc {
   color: whitesmoke;
   text-align: center;
-}
-
-.card a {
-  color: white;
-  text-align: center;
-  background-color: black;
-  text-decoration: none;
-  display: inline-block;
-  margin: 10px;
-  padding: 10px;
-  text-transform: uppercase;
-  transition: all 0.1s;
-}
-
-.card a:hover {
-  color: yellow;
 }
 
 /* Fin Main Trabajos */
@@ -371,11 +368,6 @@ input {
   border: 1px solid black;
   box-shadow: outset 0 0 2px black;
   font-family: "Lato", sans-serif;
-}
-
-input[type=text] {
-  height: 30px;
-  background-color: whitesmoke;
 }
 
 input::-moz-placeholder {
