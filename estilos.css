@@ -26,6 +26,7 @@ main {
   background-color: whitesmoke;
   background-image: url(img/impresora1.jpg);
   background-size: cover;
+  overflow: hidden;
 }
 
 .padreCall {
@@ -135,6 +136,10 @@ h2 {
 
 /* Fin Main Nosotros */
 /* Main Trabajos */
+.trabajos {
+  overflow: hidden;
+}
+
 .trabajosH1 {
   height: auto;
   font-family: "Lora", serif;
